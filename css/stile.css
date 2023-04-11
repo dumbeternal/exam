@@ -1,0 +1,103 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: blanchedalmond;
+}
+
+img {
+
+ max-width: 100%;
+height: auto; }
+
+
+
+
+
+
+nav ul {
+    list-style: circle;
+    margin: 5;
+    padding: 5;
+    display: flex;
+    gap: 25px;
+}
+nav a {
+    color: #e51111;
+    text-decoration:underline
+}
+h5 {
+    margin: 0;
+}
+
+nav a:hover {
+    color: black;
+}
+
+main, footer {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+header {
+max-width: 900px;
+background-color: rgb(255, 255, 255);
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 25px
+
+
+
+}
+
+
+
+ header h1 {
+    text-align: center;
+    margin: 0;
+    font-size:50px ;
+    
+ }
+
+ section h2 {
+    margin: 10;
+    text-align: left;
+    color: #000000;
+    font-size: 30px;
+    border-radius:10px 10px 0 0;
+
+}
+
+
+section.hero {
+    padding:40px 0 40px 0;
+    border-radius: 10px 10px 0 0;
+    margin-top: 40px;
+}
+
+section.card {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; 
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+
+
+
+
+main{
+max-width: 900px;
+background-color: rgb(209, 182, 114);
+margin: auto;
+}
+footer{
+    max-width: 1200px;
+    background-color: darkslategrey;
+    margin: auto;
+}
